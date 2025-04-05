@@ -20,7 +20,6 @@
 
 ```bash
 git clone https://github.com/Shadow-bytes007/PDF_PROTECTOR.git
- cd PDF_PROTECTOR
  ```
 
 
@@ -28,6 +27,7 @@ git clone https://github.com/Shadow-bytes007/PDF_PROTECTOR.git
 
 
 ```bash
+cd PDF_PROTECTOR
 chmod +x install.sh
 ./install.sh
 ```
