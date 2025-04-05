@@ -4,6 +4,16 @@ import sys
 import PyPDF2
 from PyPDF2.errors import PdfReadError
 
+def print_banner():
+    print(r"""
+    ╔══════════════════════════════════════════════╗
+    ║     🔐 PDF PROTECTOR - Terminal Edition      ║
+    ║    --------------------------------------    ║
+    ║    Add Passwords to PDFs and be Safe 🐍      ║
+    ║    Built with Python + PyPDF2                ║
+    ╚══════════════════════════════════════════════╝
+    """)
+
 def create_password_protected_pdf(input_pdf, output_pdf, password):
     try:
         with open(input_pdf, 'rb') as pdf_file:
@@ -28,6 +38,8 @@ def create_password_protected_pdf(input_pdf, output_pdf, password):
         print(f"[!] Error: {e}")
 
 def main():
+    print_banner()
+    
     if len(sys.argv) != 4:
         print("Usage: mypdf_tool <input_pdf> <output_pdf> <password>")
         sys.exit(1)
