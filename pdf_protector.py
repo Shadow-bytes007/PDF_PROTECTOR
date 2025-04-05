@@ -6,13 +6,15 @@ from PyPDF2.errors import PdfReadError
 
 def print_banner():
     print(r"""
-    ╔══════════════════════════════════════════════╗
-    ║     🔐 PDF PROTECTOR - Terminal Edition      ║
-    ║    --------------------------------------    ║
-    ║    Add Passwords to PDFs and be Safe 🐍      ║
-    ║    Built with Python + PyPDF2                ║
+   ╔══════════════════════════════════════════════╗
+    ║     🔐 PDF PROTECTOR - Terminal Edition                                       ║                                         
+    ║    --------------------------------------                                                         ║
+    ║    Add Passwords to PDFs and be Safe 🐍                                            ║
+    ║    Built with Python + PyPDF2                                                                       ║
     ╚══════════════════════════════════════════════╝
     """)
+   
+
 
 def create_password_protected_pdf(input_pdf, output_pdf, password):
     try:
