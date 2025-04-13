@@ -83,4 +83,4 @@ cd .. ; rm -r PDF_PROTECTOR && y
 
 
 ## 🙌 Author
-### Made with ❤️ by [Shadow-bytes007]
+### Made with ❤️ by Shadow-bytes007
