@@ -28,7 +28,7 @@ git clone https://github.com/Shadow-bytes007/PDF_PROTECTOR.git
 
 ```bash
 cd PDF_PROTECTOR
-chmod +x install.sh
+chmod +x install_pdfprotector.sh
 ./install_pdfprotector.sh
 ```
 
@@ -56,7 +56,7 @@ pdf_protector myfile.pdf myfile_protected.pdf mysecret123
 
 ```bash
 cd PDF_PROTECTOR/
-chmod +x uninstall.sh
+chmod +x uninstall_pdfprotector.sh
 ./uninstall_pdfprotector.sh
 ```
 
